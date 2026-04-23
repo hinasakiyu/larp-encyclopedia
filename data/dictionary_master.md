@@ -31,7 +31,8 @@
 - [**タップアウト (Tap Out)**](./terms/tap_out.md) ★
 - [**チェックイン (Check-in)**](./terms/check_in.md) ★
 - [**デブリーフィング**](./terms/debriefing.md) ★
-- [**ストップ / メディック**](./terms/medic_stop.md) ★
+- [**ストップ**](./terms/stop.md) ★
+- [**メディック**](./terms/medic.md) ★
 
 ### 🎭 演出・ナラティブ技術
 - [**ダイエジェティック (Diegetic)**](./terms/diegetic.md) ★
@@ -92,6 +93,7 @@ LARPの発展文脈、重要人物、および特定の演出流派。
 
 ### サ行
 - [**☆ チェック ☆**](./terms/check_cmd.md) | System ★
+- [**ストップ (Stop)**](./terms/stop.md) | Universal ★
 
 ### タ行
 - [**DCS (接触型演技戦闘)**](./terms/dcs.md) | EoP ★
@@ -130,7 +132,7 @@ LARPの発展文脈、重要人物、および特定の演出流派。
 - [**見立て (Mitate)**](./terms/mitate.md) | Universal ★
 - [**メタ・コミュニケーション**](./terms/meta_communication.md) | Universal ★
 - [**メメントモリ・ライト**](./terms/memento_mori_light.md) | System ★
-- [**メディック / ストップ**](./terms/medic_stop.md) | Universal ★
+- [**メディック (Medic)**](./terms/medic.md) | Universal ★
 
 ### ラ行
 - [**ルックダウン (Look Down)**](./terms/look_down.md) | Universal ★
