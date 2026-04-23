@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LARPencyclopedia | 知恵の正典</title>
+    <meta name="description" content="CLOSS / レイムーンスタイルによる、LARP運営とプレイのための高解像度知識ベース。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Noto+Serif+JP:wght@600;900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Marked.js -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <header class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-text">LARPencyclopedia</span>
+                    <span class="logo-sub">CLOSS / Laymun-style</span>
+                </div>
+            </header>
+            <nav id="nav-container">
+                <div class="nav-section">
+                    <h3 class="nav-title"><i data-lucide="book-open"></i> 基本情報</h3>
+                    <ul id="nav-universal"></ul>
+                </div>
+                <div class="nav-section">
+                    <h3 class="nav-title"><i data-lucide="shield-check"></i> 安全・倫理</h3>
+                    <ul id="nav-safety"></ul>
+                </div>
+                <div class="nav-section">
+                    <h3 class="nav-title"><i data-lucide="sparkles"></i> 演出・技術</h3>
+                    <ul id="nav-technique"></ul>
+                </div>
+                <div class="nav-section">
+                    <h3 class="nav-title"><i data-lucide="history"></i> 歴史・人物</h3>
+                    <ul id="nav-history"></ul>
+                </div>
+                <div class="nav-section">
+                    <h3 class="nav-title"><i data-lucide="settings"></i> システム</h3>
+                    <ul id="nav-system"></ul>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <header id="top-bar">
+                <div class="search-container">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="search-input" placeholder="用語を検索...">
+                </div>
+                <button id="theme-toggle" title="テーマ切り替え">
+                    <i data-lucide="moon"></i>
+                </button>
+            </header>
+
+            <article id="viewer">
+                <!-- Content will be rendered here -->
+                <div id="content-area" class="fade-in">
+                    <div class="welcome-screen">
+                        <h1>知恵の正典へ、ようこそ</h1>
+                        <p>左のメニューから用語を選択するか、検索して知恵を探求してください。</p>
+                        <div class="quick-links">
+                            <button onclick="location.hash='play_to_contribute'">PtCを学ぶ</button>
+                            <button onclick="location.hash='laymun_style'">レイムーンスタイルを知る</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <footer id="main-footer">
+                <p>&copy; 2026 CLOSS. All Rights Reserved.</p>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
